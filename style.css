@@ -94,19 +94,16 @@ body {
 .slider .ctrl .ctrl-active:hover img {
 	opacity: 0;
 }
-
 .slider .main .active {
 	left: 0;
 	opacity: 1;
 }
-
 .slider .active .caption h2 {
 	margin-left: -35px;
 }
 .slider .active .caption h3 {
 	margin-left: 45px;
 }
-
 .slider .ctrl .active {
 	background-color: #db7093;
 }
