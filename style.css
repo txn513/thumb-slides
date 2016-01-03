@@ -53,12 +53,11 @@ body {
 	background-color: #888;
 	top: 0;
 	transition: all 0.8s;
+	margin-left: 4px;
+	float: left;
 }
-.slider .ctrl .ctrl-i:last-child {
-	margin-right: -4px;
-}
-.slider .ctrl .ctrl-i:first-child{
-	margin-left: -4px;
+.slider .ctrl .ctrl-i:first-child {
+	margin-left: 0;
 }
 .slider .ctrl .ctrl-i img{
 	position: absolute;
