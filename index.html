@@ -4,36 +4,26 @@
 	<meta charset="utf-8">
 	<title>缩略图幻灯片</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 	<div class="slider">
-		<div class="main">
-			<div class="main-i active">
-				<img src="img/1.jpg">
+		<div class="main" id="main-temp">
+			<!-- 幻灯片模板 -->
+			<div class="main-i" id="main-{{index}}">
+				<img src="img/{{index}}.jpg">
 				<div class="caption">
-					<h2>h2 caption</h2>
-					<h3>h3 caption</h3>
-				</div>
-			</div>
-			<div class="main-i">
-				<img src="img/2.jpg">
-				<div class="caption">
-					<h2>img2 h2 caption</h2>
-					<h3>h3 caption</h3>
+					<h2>{{h2}}</h2>
+					<h3>{{h3}}</h3>
 				</div>
 			</div>
 		</div>
-		<div class="ctrl">
-			<a href="javascript:;" class="ctrl-i ctrl-active">
-				<img src="img/1.jpg">
-			</a><a href="javascript:;" class="ctrl-i">
-				<img src="img/2.jpg">
-			</a><a href="javascript:;" class="ctrl-i">
-				<img src="img/3.jpg">
-			</a><a href="javascript:;" class="ctrl-i">
-				<img src="img/4.jpg">
-			</a>
+		<div class="ctrl" id="ctrl-temp">
+			<!-- 缩略图模板 -->
+			<a href="javascript:switchSlides({{index}});" class="ctrl-i" id="ctrl-{{index}}">
+				<img src="img/{{index}}.jpg">
 		</div>
 	</div>
+	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
