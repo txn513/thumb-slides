@@ -1,4 +1,4 @@
-var data = [
+ var data = [
 			{img:1, h2:'Creative', h3:'DUET'},
 			{img:2, h2:'Friendly', h3:'DEVIL'},
 			{img:3, h2:'Tranquilent', h3:'COMPATRIOT'},

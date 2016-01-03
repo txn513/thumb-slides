@@ -15,11 +15,18 @@ body {
 	height: 400px;
 	margin: 0 auto;
 }
+/* main */
 .slider .main {
 	position: relative;
 	width: 1280px;
 	height: 400px;
 	overflow: hidden;
+}
+.slider .main .main-i {
+	position: absolute;
+	opacity: 0;
+	left: -50%;
+	transition: all 1s;
 }
 .slider .main-i .caption {
 	position: absolute;
@@ -32,12 +39,15 @@ body {
 }
 .slider .main-i .caption h2 {
 	color: #ccc;
-	font-size: 28px;
+	font-size: 32px;
 	margin-left: 0;
+	margin-bottom: 10px;
 }
 .slider .main-i .caption h3 {
+	font-size: 24px;
 	margin-left: 0px;
 }
+/* ctrl 缩略图 */
 .slider .ctrl {
 	position: absolute;
 	width: 1280px;
@@ -84,19 +94,14 @@ body {
 .slider .ctrl .ctrl-active:hover img {
 	opacity: 0;
 }
-.slider .main .main-i {
-	position: absolute;
-	opacity: 0;
-	left: -50%;
-	transition: all 1s;
-}
+
 .slider .main .active {
 	left: 0;
 	opacity: 1;
 }
 
 .slider .active .caption h2 {
-	margin-left: -45px;
+	margin-left: -35px;
 }
 .slider .active .caption h3 {
 	margin-left: 45px;
