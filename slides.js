@@ -39,6 +39,7 @@ function addSlides (){
 	g('ctrl-temp').innerHTML = ctrl_arr.join('');
 
 }
+
 function switchSlides (n){
 	var main= g('main-'+n);
 	var ctrl= g('ctrl-'+n);
