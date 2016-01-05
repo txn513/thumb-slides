@@ -60,3 +60,5 @@ window.onload = function (){
 	addSlides();
 	switchSlides(1);
 }
+
+
