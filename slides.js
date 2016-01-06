@@ -52,10 +52,8 @@ function switchSlides (n){
 		clear_main[i].className = "main-i";
 		clear_ctrl[i].className = "ctrl-i";
 	}
-
 	main.className += " active";
 	ctrl.className += " active";
-
 }
 
 window.onload = function (){
